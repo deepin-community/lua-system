@@ -1,0 +1,39 @@
+lua-system (0.2.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Set Rules-Requires-Root=no
+  * Annotate lua-busted Build-Depends with <!nocheck> profile.  Thanks to
+    Helmut Grohne for the report.  (Closes: #928664)
+  * Build-Depend on debhelper-compat (= 13)
+  * Change Vcs-* URLs to Salsa
+  * Declare compliance with Policy 4.5.1
+
+ -- James McCoy <jamessan@debian.org>  Mon, 30 Nov 2020 23:28:42 -0500
+
+lua-system (0.2.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump Standards-Version to 4.1.3, no changes needed
+  * Enable tests: add lua-busted as a Build-Dep
+
+ -- Jason Pleau <jason@jpleau.ca>  Sat, 10 Feb 2018 10:21:06 -0500
+
+lua-system (0.2.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jason Pleau <jason@jpleau.ca>  Mon, 23 May 2016 16:39:29 -0400
+
+lua-system (0.1.1-1) unstable; urgency=medium
+
+  * New upstream release
+    + Remove fix_unreliable_test.patch: merged upstream
+  * Update Standards-Version to 3.9.8, no changes needed
+
+ -- Jason Pleau <jason@jpleau.ca>  Tue, 03 May 2016 20:40:44 -0400
+
+lua-system (0.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #815489)
+
+ -- Jason Pleau <jason@jpleau.ca>  Tue, 08 Mar 2016 21:50:40 -0500

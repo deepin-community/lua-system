@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+
+export DH_LUA_OPTS="skip-test-app-dynamic skip-test-app-static"
+
+%:
+	dh $@ --buildsystem=lua --with lua

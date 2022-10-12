@@ -1,0 +1,6 @@
+Tests: dh-lua-tests
+Restrictions: rw-build-tree
+Depends:
+ dh-lua,
+ lua-busted,
+ @,
